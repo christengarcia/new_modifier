@@ -13,4 +13,12 @@ namespace new_modifier
             Console.WriteLine("TEST.func");
         }
     }
+
+    class TEST1 : TEST
+    {
+        public new void Func()
+        {
+            Console.WriteLine("TEST1.func");
+        }
+    }
 }
